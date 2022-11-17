@@ -27,11 +27,11 @@
                     <legend>Ingresa la URL a comprobar a partir del primer punto</legend>
                     <div class="contenedor-campos">
                         <div class="campo">
-                            <input class="input-text" type="text" placeholder="twitter.com">
+                            <input class="input-text" type="text" placeholder="twitter.com" id="test" value="">
                         </div>
                     </div> <!-- .contenedor-campos -->
                     <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                        <input class="boton w-sm-100" type="submit" value="Enviar" onclick="submitMe()">
                     </div>
                 </fieldset>
             </form>
@@ -42,5 +42,12 @@
         <p>Dalí Gomez (329881)</p>
         <p>Daniel Cota (329701)</p>
     </footer>
+
+    <script>
+        function submitMe() {
+            var value = document.getElementById('test').value;
+            alert(value);
+        }
+    </script>
 </body>
 </html>
