@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,16 +22,16 @@
     <main class="contenedor sombra">
         <h2>Comprobación</h2>
         <section>
-            <form class="formulario">
+            <form class="formulario" method="POST" action="/">
                 <fieldset>
                     <legend>Ingresa la URL a comprobar a partir del primer punto</legend>
                     <div class="contenedor-campos">
                         <div class="campo">
-                            <input class="input-text" type="text" placeholder="twitter.com" id="test" value="">
+                            <input class="input-text" type="text" name="url" placeholder="twitter.com" id="test" value="">
                         </div>
                     </div> <!-- .contenedor-campos -->
                     <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="Enviar" onclick="submitMe()">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>
@@ -43,11 +43,5 @@
         <p>Daniel Cota (329701)</p>
     </footer>
 
-    <script>
-        function submitMe() {
-            var value = document.getElementById('test').value;
-            alert(value);
-        }
-    </script>
 </body>
 </html>
