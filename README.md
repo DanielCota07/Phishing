@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyeto
 
-![Pagina](img\imagen_2022-11-23_075201323.png)
+![Pagina](/img/imagen_2022-11-23_075201323.png)
 
 - Link: [https://phishing-detector-oqe8.onrender.com/](https://phishing-detector-oqe8.onrender.com/)
 
@@ -57,28 +57,28 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 Primero entrenamos nuestro modelo siguiendo el código de Ashish Kumar de Kaggle, el cuál nos arrojó un accuracy del 96% para Logistic Regression y un 97% para MultinomialNB, posteriormente lo entrenamos en Google Cloud con AutoML, dandonos una precisión del 99.8%.
 
-![Graficas](img\imagen_2022-11-23_081748103.png)
+![Graficas](/img/imagen_2022-11-23_081748103.png)
 
 Una vez teniendo nuestro modelo entrenado, procedemos a hacer el endpoint para estableces la comunicación a este desde Google Cloud.
-![Endpoint](img\imagen_2022-11-23_082200914.png)
+![Endpoint](/img/imagen_2022-11-23_082200914.png)
 
 Después de esto creamos nuestro API y establecemos la conexión con el servidor desde nuestro local y verificamos que recibimos una respuesta.
-![Local](img\imagen_2022-11-23_082358376.png)
+![Local](/img/imagen_2022-11-23_082358376.png)
 
 Una vez comprobamos que tenemos una conexión con el modelo subimos el repositorio a Render para hostearlo
-![Render](img\imagen_2022-11-23_082632423.png)
+![Render](/img/imagen_2022-11-23_082632423.png)
 
 Después de esto establecemos la conexión y las credenciales para Google Cloud desde render
-![Credenciales](img\1.png)
-![Credenciales2](img\2.png)
-![Credenciales3](img\3.png)
-![Credenciales4](img\4.png)
-![Credenciales5](img\5.png)
-![Credenciales6](img\6.png)
-![Credenciales7](img\7.png)
+![Credenciales](/img/1.png)
+![Credenciales2](/img/2.png)
+![Credenciales3](/img/3.png)
+![Credenciales4](/img/4.png)
+![Credenciales5](/img/5.png)
+![Credenciales6](/img/6.png)
+![Credenciales7](/img/7.png)
 
 Comprobamos que todo funcione bien
-![Comprobar](img\Confiable.png)
+![Comprobar](/img/Confiable.png)
 
 <!-- CONTACT -->
 ## Autores
