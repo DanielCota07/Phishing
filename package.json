@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "export GOOGLE_APPLICATION_CREDENTIALS='./phrasal-concord-365719-1695767a8b10.json'",
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS='./phrasal-concord-365719-e4a7d5f7f621.json' && node ./bin/www --exec babel-node --presets babel-preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
