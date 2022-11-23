@@ -21,19 +21,28 @@ app.post('/prediction', urlencodedParser, async (req, res, next) => {
   let url = req.body.url
   console.log(url)
   let ans = await prediction.main(url);
+  console.log(typeof(ans))
   console.log(ans)
-  res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify(ans));
+  //res.setHeader('Content-Type', 'application/json');
+  //res.end(JSON.stringify(ans));
+  let good = ans.confidences[0]
+  let bad = ans.confidences[1]
+  if (good > bad) {
+    res.send("Good");
+  }
+  else {
+    res.send("Bad");
+  }
 });
 
-app.get('/prediction/:id', async (req, res) => {
+/// app.get('/prediction/:id', async (req, res) => {
   ///console.log(req.params['id']);
 
-  let ans = await prediction.main('google.com/mail/u/1/#inbox');
-  console.log(ans)
-  res.end(JSON.stringify(ans));
+///  let ans = await prediction.main('google.com/mail/u/1/#inbox');
+///  console.log(ans)
+///  res.end(JSON.stringify(ans));
   ///res.end(JSON.stringify(prediction.main(decodeURIComponent(req.params['id']))));
-});
+/// });
 
 app.listen(port);
 console.log('Server started at http://localhost:' + port);

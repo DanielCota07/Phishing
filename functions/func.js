@@ -49,6 +49,8 @@ async function main(text) {
 
       console.log('Prediction results:');
 
+      
+
       for (const predictionResultValue of response.predictions) {
         const predictionResult =
           prediction.ClassificationPredictionResult.fromValue(
@@ -60,9 +62,11 @@ async function main(text) {
           console.log(`\tConfidences: ${predictionResult.confidences[i]}`);
           console.log(`\tIDs: ${predictionResult.ids[i]}\n\n`);
         }
+
+        return predictionResult
       }
 
-      return response
+      ///return response
     }
     res(predictTextClassification());
     // [END aiplatform_predict_text_classification_sample]
