@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phrasal-concord-365719",
+  "private_key_id": "1695767a8b105e2fb1a361ac787264a467042a41",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC95mOAJJBrbAYe\nZkxLx2XH0bTKjeI1dLRmBls7J40AfuMdhtc82mws1luXlYF0UUS5yXTp4L8NdUq1\nqYRYmPt1EfJ6IaTCkwPUTk1jwoxW4+idWQJT5orlSKcPZvPBzzZtf2iYZpcR1XqU\n8VN3d7ur3O623fkxTIh1KAzscBFbW1ndufynpDm4M4pL2GG2PEuXZzXWDIV84af/\nmwiJ/ZZZ8N7FsId78yK8r4h8dGANoZxtjlPI2EbB+MEUJ1jW9rLJte26SAFjCmQ/\nUPPVIyb6ewRHNxkvPKZHN5pH3wA5FZ8vgkWCEkTvAQmE2mLIG3mVi/U8yul1Wfqg\namSEbtUJAgMBAAECggEAL3eOqIG7Pba3QtMEQC7b0JopDDZx9DWzQAtXs44bzyNo\nZsGFPJdGUeDU7St4O9hyitQB7tH4P4dxgL4aMEExHZ66Uu/k7KPt4Zwe+RAwnymB\nxA7zJ4CpeE10QMPVqzy92JnvzaRbH6CSbvdxixu5I+jqHHiYqMt+EnbL4C/VDtX0\nYqPTIOtVBYI9b4wGTUhNV+Au2YORLuOeeywDvYXEDgGVEZzX5PbAFQ9JER2zA2jl\nYsHY3CCK7vcR/n0dX6F/SsjgkK0cDPO52Iv8mphw3XRXRkjGkzNZXwp4mIr3zYVZ\nf5m2+IcfTqqoV0DNdC8z9QulTAO8iK+H94z1m7HQjwKBgQD1SbqZK1193NVig5yq\n+FwFz7c8yipjTo2dqjYBcVV4eqWrJZpSFPFGQt+Ty6hbi+UKqDh9K8LZlLcVy8qJ\nFriogOTO+Mu5D+Aa2Cg5utJ5nrATHre66KUW1q2JVKYKo7H4Yx6m7VQGqa4c22T7\nE5ruiOACm1iBFyI6CHYsrcrORwKBgQDGMW6ywmWhTPeL/wADA6CUyg/15PjySKHb\n5GqhqovKdPJ/3EjpWs7OTASyPph9+guhrVf4On/3GJzZAemfzWMSCf39G/UeI0VP\nREwI4RBDAA6I4expGRwWVD+XfmwkM0E1YCiJ/PfxLygy9o/X6O/21eNlbUo8mtHc\nALKao+JaLwKBgDWn6ymWUt01cXgbUioUKg0bYvnpP1x50oCquyWVpRy1t4e4sglC\ni4TTHBU4d5uO/otWQQUgjX8LCQG7kpJqZfp2N5cO1YGl91/n6OS3+VKhY+LK1WYN\nfg+A5nUkDy5EoKm1BP9+6uKKO4wUcgJ6R2nmhxoK4VFbviDzuOYNHlABAoGBAKnX\nfsfN843xCUp9ciMjHp+jMV5FpFjsiViJPB/iqP0MjyunOQxQ91yupG+jWMbMWt9o\nTzS33SWBgBgvnWeGeNnimjgnlz0GeMTfAFGznV3tVIdVJGVEUV+JPx2yBzZWfhEh\noFvv3wJeqRJTXR1nzww2azJmH/IjsqfYKTaALt+dAoGAXL+1L/ZJlD206fGDH8PM\n0K90d90Wz8LnufYP6iWzGdkeYylbJKslJ4akwygLNFABsjakew0eTGfcY97vdeOZ\nXgzRfhOhM7t9cZHxIT6rTUCnW9h1Q2rKV6OV49zWdPiB2qpTD24hfvfFD1yWE3HJ\n4N9TUvY7lIc2AJkSdkMIzpQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "phishing@phrasal-concord-365719.iam.gserviceaccount.com",
+  "client_id": "117687056578493485198",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/phishing%40phrasal-concord-365719.iam.gserviceaccount.com"
+}
