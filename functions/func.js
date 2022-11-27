@@ -9,8 +9,8 @@ async function main(text) {
      */
 
     // const text = 'YOUR_PREDICTION_TEXT';
-    const endpointId = '7189086409469198336';
-    const project = '339726620004';
+    const endpointId = '6793297407841927168';
+    const project = '69968271341';
     const location = 'us-central1';
     const aiplatform = require('@google-cloud/aiplatform');
     const {instance, prediction} =
